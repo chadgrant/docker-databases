@@ -1,0 +1,41 @@
+[
+    {
+        "_id": "tags",
+        "items":[
+            {
+                "name": "diamonds",
+                "created" : "2019-02-20T00:55:42.1616118Z",
+                "createdBy" : "developers",
+                "updated" : "2019-02-20T00:55:42.1616118Z",
+                "updatedBy": "katie@playstudios.com"
+            }
+        ]
+    },
+
+
+    {
+        "_id" : "bonusGameTypes",
+        "items" : [ 
+                {
+                   "name" : "freeSpin",
+                   "created" : "2019-02-20T00:55:42.1616118Z",
+                   "createdBy" : "developers",
+                   "updated" : "2019-02-20T00:55:42.1616118Z",
+                   "updatedBy": "katie@playstudios.com"                   
+                }
+        ]
+    },
+
+    {
+        "_id" : "symbols",
+        "items" : [
+            {
+                "name" : "WILD",
+                "created" : "2019-02-20T00:55:42.1616118Z",
+                "createdBy" : "developers",
+                "updated" : "2019-02-20T00:55:42.1616118Z",
+                "updatedBy": "katie@playstudios.com"         
+            }
+        ]
+    }
+]

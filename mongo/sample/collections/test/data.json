@@ -1,0 +1,2402 @@
+[
+    {
+        "_id": "excalibur",
+        "name": "Excalibur",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1609345Z",
+        "endDate": "2019-06-20T00:55:42.160996Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1615062Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "newyork",
+        "name": "NewYork",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616102Z",
+        "endDate": "2019-06-20T00:55:42.1616104Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616108Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "mirage",
+        "name": "Mirage",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616111Z",
+        "endDate": "2019-06-20T00:55:42.1616111Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616112Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "frontier",
+        "name": "Frontier",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616115Z",
+        "endDate": "2019-06-20T00:55:42.1616115Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616116Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "pirates",
+        "name": "Pirates",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616118Z",
+        "endDate": "2019-06-20T00:55:42.1616119Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161612Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "luxor",
+        "name": "Luxor",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616128Z",
+        "endDate": "2019-06-20T00:55:42.1616129Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161613Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "monstermaniacs",
+        "name": "MonsterManiacs",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616132Z",
+        "endDate": "2019-06-20T00:55:42.1616133Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616134Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "betrock",
+        "name": "Betrock",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616174Z",
+        "endDate": "2019-06-20T00:55:42.1616175Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616175Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "reelchef",
+        "name": "ReelChef",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616178Z",
+        "endDate": "2019-06-20T00:55:42.1616178Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616179Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "betrock2",
+        "name": "Betrock2",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616183Z",
+        "endDate": "2019-06-20T00:55:42.1616183Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616184Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "atw",
+        "name": "Atw",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616186Z",
+        "endDate": "2019-06-20T00:55:42.1616186Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616187Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "pandarama",
+        "name": "Pandarama",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.161619Z",
+        "endDate": "2019-06-20T00:55:42.161619Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616191Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "mgmgrand",
+        "name": "MgmGrand",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616194Z",
+        "endDate": "2019-06-20T00:55:42.1616194Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616195Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "chinamystery",
+        "name": "ChinaMystery",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616197Z",
+        "endDate": "2019-06-20T00:55:42.1616198Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616199Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "gleemusketeers",
+        "name": "GleeMusketeers",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616202Z",
+        "endDate": "2019-06-20T00:55:42.1616202Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616203Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "lotusland",
+        "name": "LotusLand",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616206Z",
+        "endDate": "2019-06-20T00:55:42.1616206Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616207Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "crystalplanet",
+        "name": "CrystalPlanet",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616209Z",
+        "endDate": "2019-06-20T00:55:42.161621Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616211Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "maskedballnights",
+        "name": "MaskedBallNights",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616215Z",
+        "endDate": "2019-06-20T00:55:42.1616216Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616216Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "caddyshaq",
+        "name": "CaddyShaq",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616219Z",
+        "endDate": "2019-06-20T00:55:42.1616219Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161622Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "mandalaybay",
+        "name": "MandalayBay",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616223Z",
+        "endDate": "2019-06-20T00:55:42.1616224Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616225Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "lionfestival",
+        "name": "LionFestival",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616227Z",
+        "endDate": "2019-06-20T00:55:42.1616228Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616229Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "jbsturbo",
+        "name": "JBSTurbo",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616231Z",
+        "endDate": "2019-06-20T00:55:42.1616232Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616233Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "slhturbo",
+        "name": "SLHTurbo",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616235Z",
+        "endDate": "2019-06-20T00:55:42.1616235Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616236Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "forbidden7s",
+        "name": "Forbidden7s",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616239Z",
+        "endDate": "2019-06-20T00:55:42.1616239Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161624Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "bellagio",
+        "name": "Bellagio",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616242Z",
+        "endDate": "2019-06-20T00:55:42.1616243Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616244Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "reelamigos",
+        "name": "ReelAmigos",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.161627Z",
+        "endDate": "2019-06-20T00:55:42.1616271Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616272Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "miragewildlife",
+        "name": "MirageWildlife",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616274Z",
+        "endDate": "2019-06-20T00:55:42.1616275Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616276Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "luckybirds2",
+        "name": "LuckyBirds2",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616278Z",
+        "endDate": "2019-06-20T00:55:42.1616278Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616279Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "friskyfortunes",
+        "name": "FriskyFortunes",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616282Z",
+        "endDate": "2019-06-20T00:55:42.1616282Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616283Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "oz",
+        "name": "Oz",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616285Z",
+        "endDate": "2019-06-20T00:55:42.1616285Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616286Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "betrocknights",
+        "name": "BetrockNights",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616289Z",
+        "endDate": "2019-06-20T00:55:42.1616289Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161629Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "mustangfortune",
+        "name": "MustangFortune",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616293Z",
+        "endDate": "2019-06-20T00:55:42.1616293Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616294Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "screamineagles",
+        "name": "ScreaminEagles",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616297Z",
+        "endDate": "2019-06-20T00:55:42.1616297Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616298Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "arabiannights",
+        "name": "ArabianNights",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616301Z",
+        "endDate": "2019-06-20T00:55:42.1616302Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616302Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "buffalo",
+        "name": "Buffalo",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616305Z",
+        "endDate": "2019-06-20T00:55:42.1616305Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616306Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "candy",
+        "name": "Candy",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616308Z",
+        "endDate": "2019-06-20T00:55:42.1616308Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616309Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "goldengoose",
+        "name": "GoldenGoose",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616312Z",
+        "endDate": "2019-06-20T00:55:42.1616312Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616313Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "dragonslaw",
+        "name": "DragonsLaw",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616316Z",
+        "endDate": "2019-06-20T00:55:42.1616316Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616317Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "romancegame",
+        "name": "RomanceGame",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616319Z",
+        "endDate": "2019-06-20T00:55:42.161632Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616321Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "betrockmulti",
+        "name": "BetrockMulti",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616323Z",
+        "endDate": "2019-06-20T00:55:42.1616323Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616324Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "redrock",
+        "name": "RedRock",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616327Z",
+        "endDate": "2019-06-20T00:55:42.1616327Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616328Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "forbidden7smulti",
+        "name": "Forbidden7sMulti",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616331Z",
+        "endDate": "2019-06-20T00:55:42.1616331Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616332Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "mermaids",
+        "name": "Mermaids",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616357Z",
+        "endDate": "2019-06-20T00:55:42.1616357Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616358Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "dragonswealth",
+        "name": "DragonsWealth",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.161636Z",
+        "endDate": "2019-06-20T00:55:42.1616361Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616362Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "gleelittlepigs",
+        "name": "GleeLittlePigs",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616364Z",
+        "endDate": "2019-06-20T00:55:42.1616365Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616366Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "goldengoosepp",
+        "name": "GoldenGoosePP",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616368Z",
+        "endDate": "2019-06-20T00:55:42.1616369Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161637Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "treasurebowl",
+        "name": "TreasureBowl",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616372Z",
+        "endDate": "2019-06-20T00:55:42.1616373Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616374Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "jungle",
+        "name": "Jungle",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616376Z",
+        "endDate": "2019-06-20T00:55:42.1616376Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616377Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "thundercash",
+        "name": "ThunderCash",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.161638Z",
+        "endDate": "2019-06-20T00:55:42.161638Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616381Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "persephone",
+        "name": "Persephone",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616384Z",
+        "endDate": "2019-06-20T00:55:42.1616384Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616385Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "chilifire",
+        "name": "ChiliFire",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616387Z",
+        "endDate": "2019-06-20T00:55:42.1616388Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616388Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "hippodrome",
+        "name": "Hippodrome",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616391Z",
+        "endDate": "2019-06-20T00:55:42.1616391Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616392Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "friskygoose",
+        "name": "FriskyGoose",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616395Z",
+        "endDate": "2019-06-20T00:55:42.1616395Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616396Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "ozalo",
+        "name": "Ozalo",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616398Z",
+        "endDate": "2019-06-20T00:55:42.1616399Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616399Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "ometsgold",
+        "name": "OmetsGold",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616402Z",
+        "endDate": "2019-06-20T00:55:42.1616402Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616403Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "granddragon",
+        "name": "GrandDragon",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616405Z",
+        "endDate": "2019-06-20T00:55:42.1616406Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616407Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "sevenkingdoms",
+        "name": "SevenKingdoms",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616409Z",
+        "endDate": "2019-06-20T00:55:42.161641Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161641Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "savageeyes",
+        "name": "SavageEyes",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616413Z",
+        "endDate": "2019-06-20T00:55:42.1616413Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616414Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "screamineaglesmulti",
+        "name": "ScreaminEaglesMulti",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616417Z",
+        "endDate": "2019-06-20T00:55:42.1616418Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616418Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "bigfoot",
+        "name": "Bigfoot",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616421Z",
+        "endDate": "2019-06-20T00:55:42.1616421Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616422Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "kangaroocountry",
+        "name": "KangarooCountry",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616425Z",
+        "endDate": "2019-06-20T00:55:42.1616425Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161653Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "aliceteaparty",
+        "name": "AliceTeaParty",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616534Z",
+        "endDate": "2019-06-20T00:55:42.1616535Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616536Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "roamingreels",
+        "name": "RoamingReels",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616538Z",
+        "endDate": "2019-06-20T00:55:42.1616539Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616539Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "spacecowboy",
+        "name": "SpaceCowboy",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616542Z",
+        "endDate": "2019-06-20T00:55:42.1616542Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616543Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "werewolf",
+        "name": "Werewolf",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616545Z",
+        "endDate": "2019-06-20T00:55:42.1616546Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616547Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "christmaspirates",
+        "name": "ChristmasPirates",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616551Z",
+        "endDate": "2019-06-20T00:55:42.1616551Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616552Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "lotuslandmulti",
+        "name": "LotusLandMulti",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616554Z",
+        "endDate": "2019-06-20T00:55:42.1616555Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616556Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "screamineaglesmultiboost",
+        "name": "ScreaminEaglesMultiBoost",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616559Z",
+        "endDate": "2019-06-20T00:55:42.161656Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161656Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "excaliburboost",
+        "name": "ExcaliburBoost",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616563Z",
+        "endDate": "2019-06-20T00:55:42.1616563Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616564Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "jungleboost",
+        "name": "JungleBoost",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616567Z",
+        "endDate": "2019-06-20T00:55:42.1616568Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616569Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "betrocknightsboost",
+        "name": "BetrockNightsBoost",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616571Z",
+        "endDate": "2019-06-20T00:55:42.1616572Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616573Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "sevenkingdomsboost",
+        "name": "SevenKingdomsBoost",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616575Z",
+        "endDate": "2019-06-20T00:55:42.1616576Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616577Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "christmaspiratesboost",
+        "name": "ChristmasPiratesBoost",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.161658Z",
+        "endDate": "2019-06-20T00:55:42.161658Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616581Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "aliceteapartyboost",
+        "name": "AliceTeaPartyBoost",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616584Z",
+        "endDate": "2019-06-20T00:55:42.1616584Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616585Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "munsters",
+        "name": "Munsters",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616587Z",
+        "endDate": "2019-06-20T00:55:42.1616588Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616589Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "shaqmulti",
+        "name": "ShaqMulti",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616591Z",
+        "endDate": "2019-06-20T00:55:42.1616592Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616592Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "bridesmaids",
+        "name": "Bridesmaids",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616618Z",
+        "endDate": "2019-06-20T00:55:42.1616619Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161662Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "elsenor",
+        "name": "ElSenor",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616622Z",
+        "endDate": "2019-06-20T00:55:42.1616622Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616623Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "luckymei",
+        "name": "LuckyMei",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616626Z",
+        "endDate": "2019-06-20T00:55:42.1616626Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616627Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "stepper",
+        "name": "Stepper",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616629Z",
+        "endDate": "2019-06-20T00:55:42.161663Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.161663Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "munsterslightninglab",
+        "name": "MunstersLightningLab",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616634Z",
+        "endDate": "2019-06-20T00:55:42.1616634Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616635Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "rapidgold",
+        "name": "RapidGold",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616637Z",
+        "endDate": "2019-06-20T00:55:42.1616638Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616639Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "kingkongjungle",
+        "name": "KingKongJungle",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616641Z",
+        "endDate": "2019-06-20T00:55:42.1616642Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616643Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "watchwhathappens",
+        "name": "WatchWhatHappens",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616645Z",
+        "endDate": "2019-06-20T00:55:42.1616646Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616647Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "feastofthor",
+        "name": "FeastOfThor",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616649Z",
+        "endDate": "2019-06-20T00:55:42.161665Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616651Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "electrolinkplus",
+        "name": "ElectroLinkPlus",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616653Z",
+        "endDate": "2019-06-20T00:55:42.1616654Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616655Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "crazypinata",
+        "name": "CrazyPinata",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616657Z",
+        "endDate": "2019-06-20T00:55:42.1616658Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616659Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "rapidgold2",
+        "name": "RapidGold2",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616661Z",
+        "endDate": "2019-06-20T00:55:42.1616661Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616662Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "lotusland-hr",
+        "name": "LotusLand_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616686Z",
+        "endDate": "2019-06-20T00:55:42.1616687Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616688Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "forbidden7s-hr",
+        "name": "Forbidden7s_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616692Z",
+        "endDate": "2019-06-20T00:55:42.1616692Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616693Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "oz-hr",
+        "name": "Oz_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616696Z",
+        "endDate": "2019-06-20T00:55:42.1616697Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616698Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "buffalo-hr",
+        "name": "Buffalo_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616701Z",
+        "endDate": "2019-06-20T00:55:42.1616701Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616702Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "dragonslaw-hr",
+        "name": "DragonsLaw_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616705Z",
+        "endDate": "2019-06-20T00:55:42.1616706Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616707Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "treasurebowl-hr",
+        "name": "TreasureBowl_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.161671Z",
+        "endDate": "2019-06-20T00:55:42.1616711Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616763Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "thundercash-hr",
+        "name": "ThunderCash_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616767Z",
+        "endDate": "2019-06-20T00:55:42.1616767Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616768Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "chilifire-hr",
+        "name": "ChiliFire_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616771Z",
+        "endDate": "2019-06-20T00:55:42.1616772Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616772Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "ometsgold-hr",
+        "name": "OmetsGold_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616775Z",
+        "endDate": "2019-06-20T00:55:42.1616775Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616777Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "screamineaglesmultiboost-hr",
+        "name": "ScreaminEaglesMultiBoost_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616781Z",
+        "endDate": "2019-06-20T00:55:42.1616781Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616782Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "excaliburboost-hr",
+        "name": "ExcaliburBoost_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.1616785Z",
+        "endDate": "2019-06-20T00:55:42.1616786Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616786Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    },
+    {
+        "_id": "betrocknightsboost-hr",
+        "name": "BetrockNightsBoost_HR",
+        "thumbnail": "http://thumbnails.com/image.png",
+        "startDate": "2019-02-20T00:55:42.161679Z",
+        "endDate": "2019-06-20T00:55:42.1616791Z",
+        "sessions": {
+            "hour": 100,
+            "day": 4000,
+            "week": 12312432324,
+            "month": 314425654674,
+            "year": 234464664347536
+        },
+        "coinIn": {
+            "hour": 10035234,
+            "day": 2342344000,
+            "week": 23423412312432324,
+            "month": 23423314425654674,
+            "year": 234234464664347536
+        },
+        "_cd": "2019-03-22T00:55:42.1616792Z",
+        "_cb": "Data Export Tool",
+        "_v": 1
+    }
+]

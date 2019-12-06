@@ -1,0 +1,38 @@
+version: '3.3'
+
+services:
+
+  mongo:
+    image: chadgrant/mongo:3.4
+    build:
+      context: mongo/sample
+    restart: unless-stopped
+    ports:
+      - 27018:27018
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: docker
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: chadgrant
+
+  couchbase:
+    image: chadgrant/couchbase:enterprise-6.0.0
+    build:
+      context: couch/sample
+      dockerfile: couche/Dockerfile
+    restart: unless-stopped
+    ports:
+      - 8091-8094:8091-8094
+      - 11210-11211:11210-11211
+    environment:
+      CB_HOST: couchbase
+      CB_USERNAME: docker
+      CB_PASSWORD: password
+
+  dynamo:
+    image: chadgrant/dynamo:1.0
+    build:
+      context: dynamo/
+    restart: unless-stopped
+    ports:
+      - 8000:8000
