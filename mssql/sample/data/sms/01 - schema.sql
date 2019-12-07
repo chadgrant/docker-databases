@@ -1,8 +1,3 @@
-create database sms
-go
-
-use sms
-
 create table recv_log (
   id int identity(1,1) not null,
   mdn bigint not null,

@@ -1,4 +1,5 @@
-BUILD_NUMBER?=2017-latest
+BUILD_NUMBER?=2019-GA-ubuntu-16.04
+#2017-latest
 #2019-GA-ubuntu-16.04
 
 .PHONY: help

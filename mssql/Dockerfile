@@ -6,7 +6,8 @@ RUN mkdir -p /usr/config
 WORKDIR /usr/config
 
 COPY entrypoint.sh entrypoint.sh
-RUN chmod +X /usr/config/entrypoint.sh
+#doesn't work in 2019 GA ... which is why the weird entrypoint
+#RUN chmod +X /usr/config/entrypoint.sh
 
 #COPY data setup_data
 
