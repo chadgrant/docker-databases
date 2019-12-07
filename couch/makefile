@@ -9,7 +9,7 @@ help: ## This help.
 .EXPORT_ALL_VARIABLES:
 
 docker-build:
-	docker build -t chadgrant/couchbase:${BUILD_NUMBER} .
+	docker build -t chadgrant/couchbase:${BUILD_NUMBER} --build-arg tag=${BUILD_NUMBER} .
 
 docker-push:
 	docker push chadgrant/couchbase:${BUILD_NUMBER}

@@ -1,4 +1,6 @@
 BUILD_NUMBER?=1.0
+BUILDER?=golang:1.13
+RUNNER?=openjdk:11.0.5-stretch
 
 .PHONY: help
 
@@ -9,7 +11,7 @@ help: ## This help.
 .EXPORT_ALL_VARIABLES:
 
 docker-build:
-	docker build -t chadgrant/dynamo:${BUILD_NUMBER} .
+	docker build -t chadgrant/dynamo:${BUILD_NUMBER} --build-arg builder=${BUILDER} runner=${RUNNER} .
 
 docker-push:
 	docker push chadgrant/dynamo:${BUILD_NUMBER}

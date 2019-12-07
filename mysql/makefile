@@ -9,7 +9,7 @@ help: ## This help.
 .EXPORT_ALL_VARIABLES:
 
 docker-build:
-	docker build -t chadgrant/mysql:${BUILD_NUMBER} .
+	docker build -t chadgrant/mysql:${BUILD_NUMBER} --build-arg tag=${BUILD_NUMBER} ./sample
 
 docker-push:
 	docker push chadgrant/mysql:${BUILD_NUMBER}

@@ -9,10 +9,7 @@ help: ## This help.
 .EXPORT_ALL_VARIABLES:
 
 docker-build:
-	docker build -t chadgrant/postgres:${BUILD_NUMBER} .
-
-docker-push:
-	docker push chadgrant/postgres:${BUILD_NUMBER}
+	docker build -t chadgrant/postgres:${BUILD_NUMBER} --build-arg tag=${BUILD_NUMBER} ./sample
 
 docker-run:
 	docker run -itp 5432:5432 \

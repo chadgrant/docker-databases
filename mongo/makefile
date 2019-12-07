@@ -9,7 +9,7 @@ help: ## This help.
 .EXPORT_ALL_VARIABLES:
 
 docker-build:
-	docker build -t chadgrant/mongo:${BUILD_NUMBER} .
+	docker build -t chadgrant/mongo:${BUILD_NUMBER} --build-arg tag=${BUILD_NUMBER} .
 
 docker-push:
 	docker push chadgrant/mongo:${BUILD_NUMBER}

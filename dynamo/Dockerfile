@@ -1,11 +1,15 @@
-FROM golang:1.13 AS builder
-MAINTAINER chad.grant@me.com
+ARG builder
+ARG runner
+
+FROM $builder AS builder
+
 WORKDIR /go/src/github.com/chadgrant/dynamodb-local/
 COPY main.go .
 RUN go get ./... && \
     go build -o /go/bin/populator
 
-FROM openjdk:11.0.5-stretch
+FROM $runner
+MAINTAINER chad.grant@me.com
 EXPOSE 8000
 RUN mkdir -p opt/dynamodb
 WORKDIR /opt/dynamodb

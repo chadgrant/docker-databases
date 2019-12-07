@@ -5,8 +5,6 @@ cd /opt/dynamodb/
 
 eval "$@" &
 
-cd /
-
-./populator
+/populator
 
 fg 1

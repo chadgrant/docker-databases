@@ -59,3 +59,14 @@ services:
       POSTGRES_USER: docker
       POSTGRES_PASSWORD: password 
       POSTGRES_DB: sms
+
+  mssql:
+    image: chadgrant/mssql_sample
+    build:
+      context: mssql/sample
+    restart: unless-stopped
+    ports:
+      - 1433:1433
+    environment:
+      ACCEPT_EULA: Y
+      MSSQL_SA_PASSWORD: !StrongPassw0rd    

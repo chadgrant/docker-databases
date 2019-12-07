@@ -1,4 +1,6 @@
-FROM couchbase/server:enterprise-6.0.0
+ARG tag
+FROM couchbase/server:$tag
+MAINTAINER chad.grant@me.com
 
 # in derived projects, create this volume and copy
 #buckets /opt/couchbase/buckets

@@ -1,3 +1,4 @@
-FROM mysql:8.0.18
+ARG tag
+FROM postgres:$tag
 
 COPY data /docker-entrypoint-initdb.d/

@@ -1,4 +1,6 @@
-FROM mongo:3.4
+ARG tag
+FROM mongo:$tag
+MAINTAINER chad.grant@me.com
 
 # in derived projects, create this volume and copy
 # COPY collections /docker-entrypoint-initdb.d/collections 
