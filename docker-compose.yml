@@ -36,3 +36,14 @@ services:
     restart: unless-stopped
     ports:
       - 8000:8000
+
+  mysql:
+    image: chadgrant/mysql:8.0.18
+    build:
+      context: mysql/
+    restart: unless-stopped
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: sms
