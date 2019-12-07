@@ -47,3 +47,15 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: sms
+
+  postgres:
+    image: chadgrant/postgres:12.1
+    build:
+      context: postgres/
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: password 
+      POSTGRES_DB: sms
