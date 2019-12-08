@@ -9,10 +9,14 @@ help: ## This help.
 .EXPORT_ALL_VARIABLES:
 
 docker-build:
-	docker build -t chadgrant/postgres:${BUILD_NUMBER} --build-arg tag=${BUILD_NUMBER} ./sample
+	docker build -t chadgrant/postgres_sample:${BUILD_NUMBER} --build-arg tag=${BUILD_NUMBER} ./sample
+
+docker-psuh:
+	docker push chadgrant/postgres_sample:${BUILD_NUMBER}
 
 docker-run:
 	docker run -itp 5432:5432 \
+	-v $(shell pwd)/sample/data:/docker-entrypoint-initdb.d \
 	-e POSTGRES_USER=docker -e POSTGRES_PASSWORD=password -e POSTGRES_DB=sms \
 	chadgrant/postgres:${BUILD_NUMBER}
 

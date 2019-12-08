@@ -19,7 +19,6 @@ COPY entrypoint.sh /entrypoint.sh
 COPY --from=builder /go/bin/populator /populator
 RUN chmod +x /entrypoint.sh
 
-#ONBUILD COPY schema /schema
 #ONBUILD COPY data /data
 
 ENTRYPOINT ["/entrypoint.sh"]

@@ -3,7 +3,7 @@ version: '3.3'
 services:
 
   mongo:
-    image: chadgrant/mongo:3.4
+    image: chadgrant/mongo_sample:3.4
     build:
       context: mongo/sample
     restart: unless-stopped
@@ -16,10 +16,9 @@ services:
       MONGO_INITDB_DATABASE: chadgrant
 
   couchbase:
-    image: chadgrant/couchbase:enterprise-6.0.0
+    image: chadgrant/couchbase_sample:enterprise-6.0.0
     build:
       context: couch/sample
-      dockerfile: couche/Dockerfile
     restart: unless-stopped
     ports:
       - 8091-8094:8091-8094
@@ -30,17 +29,17 @@ services:
       CB_PASSWORD: password
 
   dynamo:
-    image: chadgrant/dynamo:1.0
+    image: chadgrant/dynamo_sample:1.0
     build:
-      context: dynamo/
+      context: dynamo/sample
     restart: unless-stopped
     ports:
       - 8000:8000
 
   mysql:
-    image: chadgrant/mysql:8.0.18
+    image: chadgrant/mysql_sample:8.0.18
     build:
-      context: mysql/
+      context: mysql/sample
     restart: unless-stopped
     ports:
       - 3306:3306
@@ -49,9 +48,9 @@ services:
       MYSQL_DATABASE: sms
 
   postgres:
-    image: chadgrant/postgres:12.1
+    image: chadgrant/postgres_sample:12.1
     build:
-      context: postgres/
+      context: postgres/sample
     restart: unless-stopped
     ports:
       - 5432:5432
@@ -61,7 +60,7 @@ services:
       POSTGRES_DB: sms
 
   mssql:
-    image: chadgrant/mssql_sample
+    image: chadgrant/mssql_sample:2019-GA-ubuntu-16.04
     build:
       context: mssql/sample
     restart: unless-stopped
@@ -69,4 +68,4 @@ services:
       - 1433:1433
     environment:
       ACCEPT_EULA: Y
-      MSSQL_SA_PASSWORD: !StrongPassw0rd    
+      MSSQL_SA_PASSWORD: !StrongPassw0rd

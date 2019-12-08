@@ -1,4 +1,3 @@
-FROM chadgrant/dynamodb-local
+FROM chadgrant/dynamo:1.0
 
-COPY schema /schema
-COPY data /data
+COPY data /data/

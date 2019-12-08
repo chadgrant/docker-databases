@@ -9,15 +9,16 @@ help: ## This help.
 .EXPORT_ALL_VARIABLES:
 
 docker-build:
-	docker build -t chadgrant/mysql:${BUILD_NUMBER} --build-arg tag=${BUILD_NUMBER} ./sample
+	docker build -t chadgrant/mysql_sample:${BUILD_NUMBER} --build-arg tag=${BUILD_NUMBER} ./sample
 
 docker-push:
-	docker push chadgrant/mysql:${BUILD_NUMBER}
+	docker push chadgrant/mysql_sample:${BUILD_NUMBER}
 
 docker-run:
 	docker run -itp 3306:3306 \
+	-v $(shell pwd)/sample/data:/docker-entrypoint-initdb.d \
 	-e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=sms \
-	chadgrant/mysql:${BUILD_NUMBER}
+	mysql:${BUILD_NUMBER}
 
 docker-stop:
 	-docker container stop `docker container ls -q --filter ancestor=chadgrant/mysql`

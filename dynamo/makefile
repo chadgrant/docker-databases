@@ -11,13 +11,15 @@ help: ## This help.
 .EXPORT_ALL_VARIABLES:
 
 docker-build:
-	docker build -t chadgrant/dynamo:${BUILD_NUMBER} --build-arg builder=${BUILDER} runner=${RUNNER} .
+	docker build -t chadgrant/dynamo:${BUILD_NUMBER} --build-arg builder=${BUILDER} --build-arg runner=${RUNNER} .
 
 docker-push:
 	docker push chadgrant/dynamo:${BUILD_NUMBER}
 
 docker-run:
-	docker run -itp 8000:8000 chadgrant/dynamo:${BUILD_NUMBER}
+	docker run -itp 8000:8000 \
+	-v $(shell pwd)/sample/data:/data \
+	chadgrant/dynamo:${BUILD_NUMBER}
 
 docker-stop:
 	-docker container stop `docker container ls -q --filter ancestor=chadgrant/dynamo`
