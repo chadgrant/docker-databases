@@ -7,4 +7,6 @@ eval "$@" &
 
 /populator
 
+DYNAMO_ENDPOINT=http://localhost:8000 dynamodb-admin &
+
 fg 1
