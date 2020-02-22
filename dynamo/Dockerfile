@@ -28,4 +28,4 @@ COPY --from=builder /go/bin/populator /populator
 RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["java","-jar","DynamoDBLocal.jar","-inMemory"]
+CMD ["java","-jar","DynamoDBLocal.jar","-inMemory","-sharedDb"]
