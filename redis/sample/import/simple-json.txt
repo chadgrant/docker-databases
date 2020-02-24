@@ -1,0 +1,2 @@
+SET object1 '{ "name": "this is a name", "value" : "this is a value" }'
+SET array1 '[{ "name": "this is a name", "value" : "this is a value" },{ "name": "this is a name", "value" : "this is a value" },{ "name": "this is a name", "value" : "this is a value" }]'
