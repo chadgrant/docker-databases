@@ -16,5 +16,5 @@ COPY data /docker-entrypoint-initdb.d/
 	docker run -itp 3306:3306 \
 	-v $(pwd)/sample/data:/docker-entrypoint-initdb.d \
 	-e POSTGRES_USER=docker -e POSTGRES_PASSWORD=password -e POSTGRES_DB=sms \
-	postgres:12.1
+	postgres:12.2-alpine
 ```
