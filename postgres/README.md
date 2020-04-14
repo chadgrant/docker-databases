@@ -5,7 +5,7 @@ This is meant more as an inspiration since postgres already loads the sql files 
 ## Sample Dockerfile
 
 ```docker
-FROM postgres:12.1
+FROM postgres:12.2-alpine
 
 COPY data /docker-entrypoint-initdb.d/
 ```
@@ -13,8 +13,8 @@ COPY data /docker-entrypoint-initdb.d/
 ### Running locally
 
 ```bash
-	docker run -itp 3306:3306 \
+	docker run -itp 5432:5432 \
 	-v $(pwd)/sample/data:/docker-entrypoint-initdb.d \
 	-e POSTGRES_USER=docker -e POSTGRES_PASSWORD=password -e POSTGRES_DB=sms \
-	postgres:12.1
+	postgres:12.2-alpine
 ```

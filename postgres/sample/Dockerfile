@@ -1,4 +1,3 @@
-ARG tag
-FROM postgres:$tag
+FROM postgres:12.2-alpine
 
 COPY data /docker-entrypoint-initdb.d/
