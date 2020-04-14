@@ -1,4 +1,4 @@
-BUILD_NUMBER?=12.1
+BUILD_NUMBER?=12.2
 
 .PHONY: help
 
@@ -9,7 +9,7 @@ help: ## This help.
 .EXPORT_ALL_VARIABLES:
 
 build: ## build
-	docker build -t chadgrant/postgres_sample:${BUILD_NUMBER} --build-arg tag=${BUILD_NUMBER} --no-cache ./sample
+	docker build -t chadgrant/postgres_sample:${BUILD_NUMBER} --build-arg tag=${BUILD_NUMBER} ./sample
 
 push: ## push
 	docker push chadgrant/postgres_sample:${BUILD_NUMBER}
@@ -22,7 +22,7 @@ run: ## run
 stop: ## stop
 	-docker container stop `docker container ls -q --filter ancestor=chadgrant/postgres`
 
-clean: ## clean
+clean: stop  ## delete containers / images
 	-docker container rm `docker container ls -aq --filter ancestor=chadgrant/postgres`
 	-docker rmi `docker images --format '{{.Repository}}:{{.Tag}}' | grep "chadgrant/postgres"` -f
 	-docker rmi `docker images -qf dangling=true`

@@ -1,6 +1,5 @@
 ARG tag
 FROM mcr.microsoft.com/mssql/server:$tag
-MAINTAINER chad.grant@me.com
 
 RUN mkdir -p /usr/config
 WORKDIR /usr/config

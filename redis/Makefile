@@ -8,23 +8,21 @@ help: ## This help.
 .DEFAULT_GOAL := help
 .EXPORT_ALL_VARIABLES:
 
-docker-build: ## build docker image
+build: ## build docker image
 	docker build -t chadgrant/redis:${BUILD_NUMBER} .
 
-docker-push: ## push docker image
+push: ## push docker image
 	docker push chadgrant/redis:${BUILD_NUMBER}
 
-docker-run: ## run docker image
+run: ## run docker image
 	cd sample; docker build -t chadgrant/redis-sample .
 	docker run -itp 6379:6379 -p 63790:63790 -p 8080:8080 --rm \
 	chadgrant/redis-sample
 
-docker-stop: ## stop container
+stop: ## stop container
 	-docker container stop `docker container ls -q --filter ancestor=chadgrant/redis:${BUILD_NUMBER}`
 
-docker-rm: docker-stop # remove container after stopping
+clean: stop # remove image after stopping all containers
 	-docker container rm `docker container ls -aq --filter ancestor=chadgrant/redis:${BUILD_NUMBER}`
-
-docker-clean: docker-rm # remove image after stopping all containers
 	-docker rmi `docker images --format '{{.Repository}}:{{.Tag}}' | grep "chadgrant/redis"` -f
 	-docker rmi `docker images -qf dangling=true`

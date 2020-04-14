@@ -24,7 +24,7 @@ run: ## run docker image
 stop: ## stop container
 	-docker container stop `docker container ls -q --filter ancestor=chadgrant/dynamo:${BUILD_NUMBER}`
 
-clean: docker-rm # remove image after stopping all containers
+clean: stop # remove image after stopping all containers
 	-docker container rm `docker container ls -aq --filter ancestor=chadgrant/dynamo:${BUILD_NUMBER}`
 	-docker rmi `docker images --format '{{.Repository}}:{{.Tag}}' | grep "chadgrant/dynamo"` -f
 	-docker rmi `docker images -qf dangling=true`
