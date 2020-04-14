@@ -18,6 +18,7 @@ import (
 
 func main() {
 	log.Println("starting populator ...")
+	defer log.Println("populator complete ...")
 
 	ep := os.Getenv("DYNAMO_ENDPOINT")
 	if len(ep) == 0 {

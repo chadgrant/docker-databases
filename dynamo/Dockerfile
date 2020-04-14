@@ -23,9 +23,9 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* && \
     npm install -g dynamodb-admin
 
-COPY entrypoint.sh /entrypoint.sh
 COPY --from=builder /go/bin/populator /populator
-RUN chmod +x /entrypoint.sh
+COPY entrypoint.sh build.sh /
+RUN chmod +x /*.sh  && mkdir -p /var/dynamodb
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["java","-jar","DynamoDBLocal.jar","-inMemory","-sharedDb"]
+CMD ["java","-jar","DynamoDBLocal.jar","-sharedDb","-dbPath","/var/dynamodb"]

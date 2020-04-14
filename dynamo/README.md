@@ -14,6 +14,8 @@ docker image that loads data / schemas from inside container
 FROM chadgrant/dynamo:1.0
 
 COPY data /data/
+
+RUN /build.sh
 ```
 
 ## Sample
