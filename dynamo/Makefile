@@ -1,4 +1,4 @@
-BUILD_NUMBER?=1.3
+BUILD_NUMBER?=1.4
 BUILDER?=golang:1.14.2
 RUNNER?=openjdk:slim-buster
 

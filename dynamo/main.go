@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -89,40 +90,104 @@ func loadAllFiles(dyn *dynamodb.DynamoDB, table, dir string) {
 }
 
 func loadDataFromFile(dynamo *dynamodb.DynamoDB, table, file string) error {
-
 	if !isTableActive(dynamo, table, 3*time.Second) {
 		return fmt.Errorf("timeout checking table state: %s", table)
-	} else {
-		log.Printf("importing data %s from %s\n", table, file)
-		bs, err := ioutil.ReadFile(file)
-		if err != nil {
-			return fmt.Errorf("reading data from disk %s %v", file, err)
-		}
-		var rows []json.RawMessage
-		if err := json.Unmarshal(bs, &rows); err != nil {
-			return fmt.Errorf("could not unmarshal data %s %v", table, err)
-		}
-
-		for _, r := range rows {
-			var row map[string]interface{}
-			if err := json.Unmarshal(r, &row); err != nil {
-				return fmt.Errorf("could not unmarshal row %s %v", table, err)
-			}
-			av, err := dynamodbattribute.MarshalMap(row)
-			if err != nil {
-				return fmt.Errorf("error marshalling %v", err)
-			}
-			_, err = dynamo.PutItem(&dynamodb.PutItemInput{
-				Item:      av,
-				TableName: aws.String(table),
-			})
-			if err != nil {
-				return fmt.Errorf("error putitem %s %v", table, err)
-			}
-		}
-		log.Printf("added %d rows to %s\n", len(rows), table)
 	}
 
+	readByLines, rerr := canReadByLine(file)
+	if rerr != nil {
+		return fmt.Errorf("Reading file %s %v", file, rerr)
+	}
+
+	var count int64
+	var err error
+	log.Printf("importing data %s from %s\n", table, file)
+	if readByLines {
+		count, err = insertFileByLine(dynamo, table, file)
+		if err != nil {
+			return fmt.Errorf("inserting file line by line %v", err)
+		}
+	} else {
+		count, err = insertEntireFile(dynamo, table, file)
+		if err != nil {
+			return fmt.Errorf("inserting entire file %v", err)
+		}
+	}
+	log.Printf("added %d rows to %s\n", count, table)
+
+	return nil
+}
+
+func insertFileByLine(dynamo *dynamodb.DynamoDB, table, file string) (int64, error) {
+	f, err := os.OpenFile(file, os.O_RDWR, 0644)
+	if err != nil {
+		return 0, err
+	}
+	defer f.Close()
+
+	var counter int64
+	r := bufio.NewScanner(f)
+	for r.Scan() {
+		t := strings.Trim(r.Text(), " ")
+		t = strings.TrimRight(t, ",")
+		t = strings.TrimRight(t, "]")
+		t = strings.TrimLeft(t, "[")
+		t = strings.Trim(t, " ")
+
+		if len(t) == 0 {
+			continue
+		}
+
+		if strings.HasPrefix(t, "{") && strings.HasSuffix(t, "}") {
+			counter++
+
+			var row json.RawMessage
+			if err := json.Unmarshal([]byte(t), &row); err != nil {
+				return 0, fmt.Errorf("could not unmarshal data %s %v", table, err)
+			}
+
+			if err := writeRow(dynamo, table, row); err != nil {
+				return counter, err
+			}
+		}
+	}
+	return counter, nil
+}
+
+func insertEntireFile(dynamo *dynamodb.DynamoDB, table, file string) (int64, error) {
+	bs, err := ioutil.ReadFile(file)
+	if err != nil {
+		return 0, fmt.Errorf("reading data from disk %s %v", file, err)
+	}
+	var rows []json.RawMessage
+	if err := json.Unmarshal(bs, &rows); err != nil {
+		return 0, fmt.Errorf("could not unmarshal data %s %v", table, err)
+	}
+	for _, row := range rows {
+		if err := writeRow(dynamo, table, row); err != nil {
+			return 0, err
+		}
+	}
+
+	return int64(len(rows)), nil
+}
+
+func writeRow(dynamo *dynamodb.DynamoDB, table string, r []byte) error {
+	var row map[string]interface{}
+	if err := json.Unmarshal(r, &row); err != nil {
+		return fmt.Errorf("could not unmarshal row %s %v", table, err)
+	}
+	av, err := dynamodbattribute.MarshalMap(row)
+	if err != nil {
+		return fmt.Errorf("error marshalling %v", err)
+	}
+	_, err = dynamo.PutItem(&dynamodb.PutItemInput{
+		Item:      av,
+		TableName: aws.String(table),
+	})
+	if err != nil {
+		return fmt.Errorf("error putitem %s %v", table, err)
+	}
 	return nil
 }
 
@@ -168,4 +233,33 @@ func loadTableSchema(file string) (*dynamodb.CreateTableInput, error) {
 	}
 
 	return t, nil
+}
+
+func canReadByLine(filename string) (bool, error) {
+	f, err := os.OpenFile(filename, os.O_RDWR, 0644)
+	if err != nil {
+		return false, err
+	}
+	defer f.Close()
+
+	r := bufio.NewScanner(f)
+	for r.Scan() {
+		t := strings.Trim(r.Text(), " ")
+		t = strings.TrimRight(t, ",")
+		t = strings.TrimRight(t, "]")
+		t = strings.TrimLeft(t, "[")
+		t = strings.Trim(t, " ")
+
+		if len(t) == 0 {
+			continue
+		}
+
+		if strings.HasPrefix(t, "{") && strings.HasSuffix(t, "}") {
+			continue
+		}
+
+		return false, nil
+	}
+
+	return true, nil
 }
