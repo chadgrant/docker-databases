@@ -1,6 +1,6 @@
-BUILD_NUMBER?=1.2
-BUILDER?=golang:1.13
-RUNNER?=openjdk:11.0.5-stretch
+BUILD_NUMBER?=1.3
+BUILDER?=golang:1.14.2
+RUNNER?=openjdk:slim-buster
 
 .PHONY: help
 

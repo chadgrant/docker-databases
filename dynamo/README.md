@@ -7,11 +7,11 @@ docker image that loads data / schemas from inside container
     data 
         - (directory | table name)
             - schema.json
-            - data.json
+            - anything_not_named_schema_loaded_as_records.json
 ```
 
 ```docker
-FROM chadgrant/dynamo:1.0
+FROM chadgrant/dynamo:1.3
 
 COPY data /data/
 

@@ -7,6 +7,7 @@ import (
 	"log"
 	"os"
 	"path"
+	"strings"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
@@ -57,22 +58,32 @@ func main() {
 
 	for _, d := range dirs {
 		log.Printf("checking directory %s", d)
+
 		file := path.Join(dir.Name(), d, "schema.json")
 		_, err := os.Stat(file)
 		if !os.IsNotExist(err) {
 			log.Printf("creating schema %s\n", d)
 			if err := createTable(dyn, true, file); err != nil {
 				log.Printf("couldn't create table %s %v\n", d, err)
+			} else {
+				loadAllFiles(dyn, d, path.Join(dir.Name(), d))
 			}
 		}
+	}
+}
 
-		file = path.Join(dir.Name(), d, "data.json")
-		_, err = os.Stat(file)
-		if !os.IsNotExist(err) {
-			log.Printf("populating table %s\n", d)
-			if err = loadDataFromFile(dyn, d, file); err != nil {
-				panic(err)
-			}
+func loadAllFiles(dyn *dynamodb.DynamoDB, table, dir string) {
+	fi, err := ioutil.ReadDir(dir)
+	if err != nil {
+		panic(err)
+	}
+
+	for _, f := range fi {
+		if f.IsDir() || strings.EqualFold(f.Name(), "schema.json") {
+			continue
+		}
+		if err = loadDataFromFile(dyn, table, path.Join(dir, f.Name())); err != nil {
+			panic(err)
 		}
 	}
 }
